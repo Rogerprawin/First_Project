@@ -100,6 +100,97 @@ Write a program that prints all prime numbers between 1 and 50.'''
             print(" ",end=" ")
     print()'''
 
+'''import time
+for i in range (20,0,-1):
+    print(i)
+    time.sleep(1)
+print("HAPPY NEW YEAR")'''
+
+# while loop
+# question 1
+'''Write a Python program that calculates the sum of all natural numbers from 1 up to a given number 
+n. Use a while loop to keep adding numbers until you reach n'''
+
+'''n = int(input("Enter a number: "))
+a = 0
+b = 1
+
+while b <= n:
+    a += b
+    b += 1
+
+print("The sum is:", a)'''
+
+#question 2
+'''facotrial calculation '''
+'''n = int(input("Enter a number: "))
+factorial = 1
+current = 1
+
+while current <= n:
+    factorial *= current
+    current += 1
+
+print("The factorial is:", factorial)'''
+
+#question 3
+'''Write a Python program that lets the user guess a number between 1 and 100.
+ Use a while loop to repeatedly prompt the user until they guess the correct number.
+   Provide hints if the guess is too high or too low.'''
+'''import random
+
+number_to_guess=random.randint(1,5)
+guess=None
+
+while guess != number_to_guess:
+
+    guess=int(input("guess the number:"))
+
+    if guess>number_to_guess:
+        print("too high")
+
+    elif guess<number_to_guess:
+        print("too low")
+
+    else:
+        print("congrats")'''
+
+#question 4
+'''Write a Python program that creates a countdown timer. 
+The user inputs the number of seconds, and the program uses a while loop to 
+count down to zero, printing the time remaining each second.'''
+
+'''import time
+
+seconds = int(input("Enter the countdown time in seconds: "))
+
+while seconds > 0:
+    print(seconds)
+    time.sleep(1) 
+    seconds -= 1
+
+print("Time's up!")'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
